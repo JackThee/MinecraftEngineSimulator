@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[2,)"
-license="Not specified"
+license="Public Domain"
 
 [[mods]]
 modId="mse"
 version="1.0.0"
 displayName="Minecraft Engine Simulator"
-displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="jackj, MCreator"
+displayURL="https://github.com/JackThee/MinecraftEngineSimulator"
+credits="Engine Sound Was Provided By JustInvoke On Freesounds.org"
+authors="Jack_Thee"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
