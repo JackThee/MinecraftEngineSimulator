@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mse:block/fuelinjector",
+    "up": "mse:block/fuelinjector",
+    "north": "mse:block/fuelinjector",
+    "east": "mse:block/fuelinjector",
+    "south": "mse:block/fuelinjector",
+    "west": "mse:block/fuelinjector",
+    "particle": "mse:block/fuelinjector"
+  },
+  "render_type": "solid"
+}

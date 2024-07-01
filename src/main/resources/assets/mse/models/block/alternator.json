@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mse:block/coil",
+    "up": "mse:block/coil",
+    "north": "mse:block/coil",
+    "east": "mse:block/coil",
+    "south": "mse:block/coil",
+    "west": "mse:block/coil",
+    "particle": "mse:block/coil"
+  },
+  "render_type": "solid"
+}

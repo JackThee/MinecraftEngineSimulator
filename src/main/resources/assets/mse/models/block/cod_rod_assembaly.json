@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mse:block/engineshaft",
+    "up": "mse:block/engineshaft",
+    "north": "mse:block/engineshaft",
+    "east": "mse:block/engineshaft",
+    "south": "mse:block/engineshaft",
+    "west": "mse:block/engineshaft",
+    "particle": "mse:block/engineshaft"
+  },
+  "render_type": "solid"
+}

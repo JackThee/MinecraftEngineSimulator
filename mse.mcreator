@@ -1,0 +1,268 @@
+{
+  "mod_elements": [
+    {
+      "name": "Fuel",
+      "type": "fluid",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mse/fluid/types/FuelFluidType.java",
+          "src/main/java/net/mcreator/mse/fluid/FuelFluid.java",
+          "src/main/resources/assets/mse/models/block/fuel.json",
+          "src/main/resources/assets/mse/blockstates/fuel.json",
+          "src/main/java/net/mcreator/mse/item/FuelItem.java",
+          "src/main/java/net/mcreator/mse/block/FuelBlock.java",
+          "src/main/resources/assets/mse/models/item/fuel_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "Alternator",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mse/models/item/alternator.json",
+          "src/main/resources/assets/mse/blockstates/alternator.json",
+          "src/main/resources/data/mse/loot_tables/blocks/alternator.json",
+          "src/main/resources/assets/mse/models/block/alternator.json",
+          "src/main/java/net/mcreator/mse/block/entity/AlternatorBlockEntity.java",
+          "src/main/java/net/mcreator/mse/block/AlternatorBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CodRodAssembaly",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cod_rod_assembaly",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mse/models/block/cod_rod_assembaly.json",
+          "src/main/java/net/mcreator/mse/block/CodRodAssembalyBlock.java",
+          "src/main/resources/assets/mse/blockstates/cod_rod_assembaly.json",
+          "src/main/resources/assets/mse/models/item/cod_rod_assembaly.json",
+          "src/main/resources/data/mse/loot_tables/blocks/cod_rod_assembaly.json"
+        ]
+      }
+    },
+    {
+      "name": "FuelInjector",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_injector",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mse/loot_tables/blocks/fuel_injector.json",
+          "src/main/java/net/mcreator/mse/block/entity/FuelInjectorBlockEntity.java",
+          "src/main/resources/assets/mse/blockstates/fuel_injector.json",
+          "src/main/resources/assets/mse/models/item/fuel_injector.json",
+          "src/main/java/net/mcreator/mse/block/FuelInjectorBlock.java",
+          "src/main/resources/assets/mse/models/block/fuel_injector.json"
+        ]
+      }
+    },
+    {
+      "name": "FuelInjectorOnTickUpdate",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_injector_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mse/procedures/FuelInjectorOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DEBUGGGGGGGGGGGGGGGGRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debugggggggggggggggg_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mse/procedures/DEBUGGGGGGGGGGGGGGGGRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DEBUGGGGGGGGGGGGGGGG",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debugggggggggggggggg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mse/item/DEBUGGGGGGGGGGGGGGGGItem.java",
+          "src/main/resources/assets/mse/models/item/debugggggggggggggggg.json"
+        ]
+      }
+    },
+    {
+      "name": "DebuggerRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debugger_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mse/procedures/DebuggerRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Debugger",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debugger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mse/models/item/debugger.json",
+          "src/main/java/net/mcreator/mse/item/DebuggerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FuelInjectorGUUUUUUUUUUUUUIIIIIIIIIIIIIII",
+      "type": "gui",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_injector_guuuuuuuuuuuuuiiiiiiiiiiiiiii",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mse/world/inventory/FuelInjectorGUUUUUUUUUUUUUIIIIIIIIIIIIIIIMenu.java",
+          "src/main/java/net/mcreator/mse/client/gui/FuelInjectorGUUUUUUUUUUUUUIIIIIIIIIIIIIIIScreen.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "engine",
+      "files": [
+        "446123__justinvoke__engine-3"
+      ],
+      "category": "block",
+      "subtitle": "BRRRRRRRRRRRRRRRRRRRR"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Fuel"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.mse.debugger": "Debugger",
+      "fluid.mse.fuel": "Fuel",
+      "block.mse.fuel": "Fuel",
+      "block.mse.fuel_injector": "Fuel Injector",
+      "block.mse.alternator": "Alternator",
+      "item.mse.fuel_bucket": "Fuel Bucket",
+      "block.mse.cod_rod_assembaly": "Cod Rod Assembaly",
+      "subtitles.engine": "BRRRRRRRRRRRRRRRRRRRR",
+      "item.mse.debugggggggggggggggg": "DEBUGGGGGGGGGGGGGGGG"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mse",
+    "modName": "Minecraft Engine Simulator",
+    "version": "1.0.0",
+    "author": "jackj, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.4",
+    "modElementsPackage": "net.mcreator.mse"
+  },
+  "mcreatorVersion": 202400115713
+}
